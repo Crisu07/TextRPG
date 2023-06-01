@@ -289,7 +289,7 @@ public class Main {
     if(e.getHP() == 0) //if enemy was defeated by hero
     {
       System.out.println("You have defeated the " + e.getName());
-      int rand = ( int )( Math.random() * 80000) + 3; // generate the random number for gold dropped from enemy
+      int rand = ( int )( Math.random() * 10) + 3; // generate the random number for gold dropped from enemy
       System.out.println("Congrats, You earned " + rand + " gold!");
       h.collectGold(rand); // Hero collects the money
     }
